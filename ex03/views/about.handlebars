@@ -1,0 +1,18 @@
+<p> This is about me, not you </p>
+
+<p> I enjoy {{hobby}}</p>
+
+    {{#if hobbies}} 
+        {{#each hobbies}}
+        <ul>
+           <li>{{this}}</li> 
+        </ul>
+        {{/each}} 
+    {{else}} 
+    
+        <p>I've got no hoobies....</p>
+
+    {{/if}}
+
+
+

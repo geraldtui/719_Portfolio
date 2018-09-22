@@ -1,0 +1,29 @@
+ <div class="row">
+ 
+    {{!If there are articles...}}
+    {{#if articles}}
+    
+    {{!Loop through all the articles.}}
+    {{#each articles}}
+
+    <div class="col-md-12">
+
+        <div class="card mb-2">
+            <h5 class="card-header card-title">
+                {{title}}
+            </h5>
+            <div class="card-body">
+                <p class="card-text">{{content}}</p>
+            </div>
+        </div>
+    </div>
+
+    {{/each}}
+
+    {{!If there are NO articles...}}
+    {{else}}
+    <p>No articles!</p>
+    <img src="images/t-rex-cry.png">
+    {{/if}}
+
+</div>

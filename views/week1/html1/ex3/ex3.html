@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="utf-8"> 
+    <title>HTML markup</title>
+</head>
+<Body>
+<!-- This line shows you how to add comments into your HTML file.
+These do not appear on the page when viewed in a web browser.
+-->
+
+<p>If this file is given an *.html file extension instead of a *.txt extension, then the HTML marked up contents in this file are interpreted as HTML and therefore displayed as a proper web page.</p>
+
+<p>This file starts off with no DOCTYPE. You'll need to add the docytpe for HTML5.</p>
+
+<p>This file contains HTML tags written in both uppercase and lowercase, like the opening title and body tags. Browsers tend to be forgiving of this. But it is messy. Consistency makes it tidier, and all lowercase would make it compatible with other markup standards.</p>
+
+<p>This is an example of <b><i>Bad nesting</i></b>which your web browser probably tolerates and renders as bold and italicised text, but which will not validate in HTML5. So even if many web browsers probably cope, they don't actually have to put up with it. And the day may come when they cease to, so you'll want to write valid HTML.</p>
+
+<p>This paragraph has no closing tag! And yet your browser will likely figure out to start a new paragraph when it encounters the new paragraph tag below: </p> 
+
+<p>Here is an A with a macron on it:<br />
+    Ā</p>
+
+<p>Does the above still look like an A-macron when viewed in your browser?</p>
+
+<p>Since the character encoding is not specified for this HTML web page, it's not clear to the browser what the encoding of the contents are and what's meant to be displayed therefore. The browser will either use the default or current encoding setting or it may try to auto-detect (guess at) the encoding used in the HTML page, perhaps unsuccessfully.</p>
+
+<p>In the browser, change the encoding. In Firefox, go to the View menu then Text Encoding and select Unicode. You should now see the A with the macron on it displayed correctly above. If you change the Text Encoding to Western, the browser will display it wrong.</p>
+
+<p>Good HTML is where you're far more precise with your HTML.</p>
+
+<p>You'll fix all this messiness in a subsequent exercise: add a DOCTYPE to indicate this is an HTML page, close any unclosed tags, use all-lowercased tagnames, ensure all tags are properly nested and set the encoding for this HTML page.</p>
+
+<p>Because of the history of HTML, there have been many versions of HTML. The DOCTYPE specifies, among other things, what the HTML version of a web page is.</p>
+
+</body>
+</html>

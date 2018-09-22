@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Text Editors</title>
+    <style>
+        table {
+            text-align: center;
+        }
+
+        td {
+            background-color: lightslategray;
+            border: 1px solid black;
+        }
+
+        .yes {
+            background-color: lawngreen;
+        }
+
+        .no {
+            background-color: indianred;
+        }
+
+        .partial {
+            background-color: yellow;
+        }
+
+        .plugin {
+            background-color: blueviolet;
+        }
+
+        th {
+            background-color: cornflowerblue;
+            border: 1px solid black;
+            font-weight: bold;
+        }
+
+        tbody tr td:first-child {
+            background-color: orangered;
+            font-weight: bold;
+        }
+
+        tfoot td {
+            background-color: cornflowerblue;
+            border: 1px solid black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Text Editors</h1>
+
+    <p><small>Sourced from Wikipedia, the free encyclopedia articles on https://en.wikipedia.org/wiki/Text_editor and https://en.wikipedia.org/wiki/Comparison_of_text_editors</small></p>
+
+    <p>A text editor is a type of program used for editing plain text files. Such programs are sometimes known as "notepad"
+        software, following the Microsoft Notepad.</p>
+
+    <p>Text editors are provided with operating systems and software development packages, and can be used to change configuration
+        files, documentation files and programming language source code.</p>
+
+    <hr>
+
+    <h2>Plain text files vs. word processor files</h2>
+
+    <p>There are important differences between plain text files created by a text editor and document files created by word
+        processors such as Microsoft Word or WordPerfect.</p>
+
+    <p> plain text file uses a character encoding such as UTF-8 or ASCII to represent numbers, letters, and symbols. The
+        only non-printing characters in the file that can be used to format the text are newline, tab, and formfeed. Plain
+        text files are often displayed using a monospace font so horizontal alignment and columnar formatting is sometimes
+        done using space characters.</p>
+
+    <p>Word processor documents are generally stored in a binary format to allow for localization and formatted text, such
+        as boldface, italics and multiple fonts, and to be structured into columns and tables.</p>
+
+    <p>Although they are often viewed with formatting, documents using markup languages are stored in plain text files that
+        contain a combination of human-readable text and markup tags. For example, web pages are plain text with HTML tags
+        to achieve formatting when rendered by a web browser. Many web pages also contain embedded JavaScript that is interpreted
+        by the browser.</p>
+
+    <p>Word processors were developed to allow formatting of text for presentation on a printed page, while text produced
+        by text editors is generally used for other purposes, such as input data for a computer program.</p>
+
+    <p>When both formats are available, the user must select with care. Saving a plain text file in a word-processor format
+        adds formatting information that can make the text unreadable by a program that expects plain text. Conversely, saving
+        a word-processor document as plain text removes any formatting information.</p>
+
+    <hr>
+
+    <h2>Comparison of text editors</h2>
+
+    <table>
+        <caption>Text editor support for basic editing features</caption>
+        <tr>
+            <td>Editor</td>
+            <td>Spell checking</td>
+            <td>Regex-based find &amp; replace</td>
+            <td>Encoding conversion</td>
+            <td>Newline conversion</td>
+            <td>Multiple undo/redo</td>
+            <td>Rectangular block selection</td>
+        </tr>
+        <tr>
+            <td>Acme</td>
+            <td colspan="5">Yes</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>AkelPad</td>
+            <td>Plug-in</td>
+            <td colspan="5">Yes</td>
+        </tr>
+        <tr>
+            <td>Alphatk</td>
+            <td colspan="6">Yes</td>
+        </tr>
+        <tr>
+            <td>Atom</td>
+            <td colspan="5">Yes</td>
+            <td>Plug-in</td>
+        </tr>
+        <tr>
+            <td>BBEdit</td>
+            <td colspan="6">Yes</td>
+        </tr>
+        <tr>
+            <td>Bluefish</td>
+            <td colspan="5">Yes</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Brackets</td>
+            <td>Plug-in</td>
+            <td>Yes</td>
+            <td>Plug-in</td>
+            <td>no</td>
+            <td colspan="2">Yes</td>
+        </tr>
+        <tr>
+            <td>Coda</td>
+            <td colspan="6">Yes</td>
+        </tr>
+        <tr>
+            <td>ConTEXT</td>
+            <td>No</td>
+            <td colspan="2">Partial</td>
+            <td colspan="3">Yes</td>
+        </tr>
+        <tr>
+            <td>Diakonos</td>
+            <td colspan="2">Yes</td>
+            <td colspan="2">No</td>
+            <td colspan="2">Yes</td>
+        </tr>
+        <tr>
+            <td>ed</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td colspan="4">No</td>
+        </tr>
+        <tr>
+            <td>EditPlus</td>
+            <td colspan="6">Yes</td>
+        </tr>
+        <tr>
+            <td>Editra</td>
+            <td colspan="2">Yes</td>
+            <td colspan="3">?</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>EmEditor</td>
+            <td colspan="6">Yes</td>
+        </tr>
+        <tr>
+            <td>Geany</td>
+            <td>Plug-in</td>
+            <td colspan="5">Yes</td>
+        </tr>
+        <tr>
+            <td>gedit</td>
+            <td>Yes</td>
+            <td>Plug-in</td>
+            <td colspan="3">Yes</td>
+            <td>Plug-in</td>
+        </tr>
+        <tr>
+            <td>GNU Emacs</td>
+            <td>Plug-in</td>
+            <td colspan="5">Yes</td>
+        </tr>
+        <tr>
+            <td>Gobby</td>
+            <td colspan="2">No</td>
+            <td colspan="2">Partial</td>
+            <td colspan="2">No</td>
+        </tr>
+        <tr>
+            <td>JED</td>
+            <td colspan="6">Yes</td>
+        </tr>
+        <tr>
+            <td>JOVE</td>
+            <td colspan="2">Yes</td>
+            <td colspan="2">No</td>
+            <td colspan="2">Yes</td>
+        </tr>
+        <tr>
+            <td>Kate</td>
+            <td colspan="7">Yes</td>
+        </tr>
+    </table>
+
+    <!-- DO NOT TOUCH BEYOND THIS LINE -->
+    <!-- The following applies color to table cells based on their textual content -->
+    <script type="text/javascript">
+        var tds = document.getElementsByTagName("td");
+
+        for (var i = 0, max = tds.length; i < max; i++) {
+            if (tds[i].textContent === "Yes") {
+                tds[i].classList.add("yes");
+            } else if (tds[i].textContent === "No") {
+                tds[i].classList.add("no");
+            } else if (tds[i].textContent === "Partial") {
+                tds[i].classList.add("partial");
+            } else if (tds[i].textContent === "Plug-in") {
+                tds[i].classList.add("plugin");
+            }
+        }
+    </script>
+</body>
+
+</html>
