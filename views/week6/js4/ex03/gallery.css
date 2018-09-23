@@ -1,0 +1,76 @@
+div#wrapper {
+    margin: auto;
+    height: 100%;
+    padding-top: 5%;
+}
+
+div#container {
+    margin: auto;
+    width: 717px;
+    /* Twice the width to allow for page opening plus padding */
+    height: 409px;
+    /* padding with 15 px top and bottom */
+    position: relative;
+    padding: 15px;
+    border: 5px double navy;
+}
+
+div#descriptionText {
+    font-size: 1.25em;
+    padding: 30px 20px;
+    color: Navy;
+    font-family: Garamond, serif;
+    border: 1px dotted navy;
+}
+
+.page {
+    position: absolute;
+    width: 351px;
+    height: 409px;
+}
+
+div#descriptionText {
+    margin: auto;
+    box-sizing: border-box;
+    text-align: justify;
+    left: 381px;
+    /* leaving space for twice the padding from the left */
+    top: 15px;
+}
+
+img#featuredImage {
+    left: 15px;
+    top: 15px;
+}
+
+div#thumbview {
+    margin: auto;
+    width: 1120px;
+    min-width: 1120px;
+    height: 130px;
+    margin-top: 40px;
+    padding: 0px 5px;
+    box-sizing: border-box;
+}
+
+div.thumb-holder {
+    padding: 10px 5px;
+    height: 100%;
+    width: 100px;
+    float: left;
+    box-sizing: border-box;
+    background-color: LightGray;
+}
+
+div#thumbview img {
+    position: relative;
+    left: auto;
+    top: auto;
+    margin: auto;
+    height: 100px;
+    width: 90px;
+    box-sizing: inherit;
+
+    cursor: pointer;
+    /* http://www.w3schools.com/cssref/pr_class_cursor.asp */
+}

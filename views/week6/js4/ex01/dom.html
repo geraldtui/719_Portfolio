@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>DOM</title>	
+</head>
+<body>
+
+	<h1>Learning about the DOM Part 2</h1>
+	<p class="subtitle"><small>(Lab 8 Exercise 7)</small></p>
+
+	<div class="text1">
+		<p>The DOM models an HTML page as a tree structure.</p>
+
+		<p>Every component of your HTML page is modelled as a <i>node</i> in the DOM tree.</p>
+
+		<p>Warning: attributes are no longer going to inherit methods from Node in the DOM4 specification. Refer to <a href=
+		"http://www.w3schools.com/jsref/dom_obj_attributes.asp">W3Schools The HTML DOM Attribute Object</a>. But that's in the future. At present attributes are still Nodes, even if calling Node methods on an attribute makes little sense.</p>
+	</div>
+	
+	<div class="text2">
+		<p>For each Node in the DOM tree, particularly nodes that are <i>elements</i>, you will want want to think about what node is its parent, whether it has any siblings, and any children.</p>
+
+		<p>Knowing these relationships can let you navigate from one Node to another in an HTML page, starting at the document node.</p>
+	</div>
+	
+	<div class="text3">
+		<p>You'll be trying that in the next exercise. For this exercise, you will need to understand the interrelationships between the pieces of HTML content on this page: elements, text nodes, and anything else starting at the document level.</p>
+		
+		<p>Note how the tabbing on this page helps you to see relationships and the tree hierarchy better (when you view the source on this HTML page).</p>
+	</div>
+
+	<hr />
+
+	<p id="footer" style="text-align: center"><small>This is a footer.</small></p>
+	
+	<button id="makeBold" type="button" name="makeBold" onclick="doBold();">Click me!</button>
+
+	<!-- The script will be executed here, so we can access / modify any components above this line from this script. -->
+	<script type="text/javascript" src="domtraverse.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>image gallery</title>
+	<meta charset="UTF-8" />
+	
+	<link rel="stylesheet" href="gallery.css">
+
+	<script type="text/javascript" src="gallery.js"></script>
+	</script>
+</head>
+
+<body onload="loadRandomImage()">
+	<div id="wrapper">
+		<div id="container">
+			<img class="page" id="featuredImage" src="../images/quokka.jpg" alt="placeholder" onclick="loadRandomImage()"/>
+			<!-- for valid HTML need to set src to some valid value, even if JavaScript will overwrite it -->
+			<div class="page" id="descriptionText">Placeholder text. Descriptions should go here.</div>
+		</div>
+	</div>
+	<div id="thumbview">
+		<div class="thumb-holder"><img src="../images/thumbs/0.gif" alt="thumb" /></div>
+		<div class="thumb-holder"><img src="../images/thumbs/1.gif" alt="thumb" /></div>
+		<div class="thumb-holder"><img src="../images/thumbs/2.gif" alt="thumb" /></div>
+		<div class="thumb-holder"><img src="../images/thumbs/3.gif" alt="thumb" /></div>
+		<div class="thumb-holder"><img src="../images/thumbs/4.gif" alt="thumb" /></div>
+		<div class="thumb-holder"><img src="../images/thumbs/5.gif" alt="thumb" /></div>
+		<div class="thumb-holder"><img src="../images/thumbs/6.gif" alt="thumb" /></div>
+		<div class="thumb-holder"><img src="../images/thumbs/7.gif" alt="thumb" /></div>
+		<div class="thumb-holder"><img src="../images/thumbs/8.gif" alt="thumb" /></div>
+		<div class="thumb-holder"><img src="../images/thumbs/9.gif" alt="thumb" /></div>
+		<div class="thumb-holder"><img src="../images/thumbs/10.gif" alt="thumb" /></div>
+	</div>
+</body>
+
+</html>

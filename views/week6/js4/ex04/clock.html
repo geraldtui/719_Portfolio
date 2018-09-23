@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clock</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+
+    <button onclick="startClock()">Start clock!</button>
+    <p id="time">The time will go here.</p>
+    <button onclick="stopClock()">Stop clock!</button>
+
+
+    <script>
+
+        // TODO Your code here.
+        var timer = null ; 
+
+        function intervalFunction() {
+            var time = document.getElementById("time");
+            var d = new Date() ; 
+            time.innerText = d; 
+        }
+
+        function startClock() {
+            if (timer != null) {
+                alert("Timer already started") ; 
+            } else {
+
+                timer = setInterval(intervalFunction, 1000);
+
+            }
+
+        }
+
+        function stopClock() {
+            if (timer != null) {
+                clearInterval(timer) ;
+                timer = null ;  
+            } else {
+                alert("Timer isn't on") ; 
+
+            }
+
+           
+        }
+
+
+    </script>
+
+</body>
+
+</html>
